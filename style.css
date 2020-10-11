@@ -1,0 +1,44 @@
+h1 {
+    color: blue;
+    text-align: center font: "courier";
+    font-size: 35px;
+}
+
+body {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+#photo {
+    max-width: 100%;
+    object-fit: scale-down;
+}
+
+#caption {font-size: 16px;}
+
+.content {
+    font-size: 20px;
+    text-align: center;
+}
+
+#feature {
+    width: 800px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.column {
+    display: inline-block;
+    flex-basis: 34.66%;
+    margin: 2%;
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    height: 500px;
+}
+
+.column img {
+    max-width: 150px;
+}
